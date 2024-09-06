@@ -75,7 +75,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp LESS_THAN     &kp EQUAL       &kp BACKSPACE
 &trans  &trans  &trans  &trans  &trans  &trans    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp PIPE        &kp ENTER
-&trans  &trans  &trans  &trans  &trans  &trans    &kp COMMA              &kp PERIOD         &kp SLASH        &kp BACKSLASH     &kp UNDERSCORE  &kp RIGHT_SHIFT
+&trans  &trans  &trans  &trans  &trans  &trans    &kp COMMA              &kp PERIOD         &kp SLASH        &kp BACKSLASH     &kp UNDERSCORE  &kp SPACE
                         &trans  &trans  &trans    &trans                 &trans             &trans
             >;
         };
