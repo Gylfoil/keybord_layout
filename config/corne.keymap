@@ -20,7 +20,13 @@
         reverse_alt_tab: reverse_alt_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LSHFT &alt_tab>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT &kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp TAB>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT &kp LEFT_ALT>;
 
             label = "REVERSE_ALT_TAB";
         };
