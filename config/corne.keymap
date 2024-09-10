@@ -46,10 +46,10 @@
 
         left_1 {
             bindings = <
-&kp ESCAPE  &kp HOME  &kp UP     &kp END    &alt_tab          &kp BSPC     &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT   &kp LEFT  &kp DOWN   &kp RIGHT  &reverse_alt_tab  &kp ENTER    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL   &trans    &kp SPACE  &kp SPACE  &trans            &kp DEL      &trans  &trans  &trans  &trans  &trans  &trans
-                                 &trans     &trans            &trans       &trans  &trans  &trans
+&kp ESCAPE  &kp HOME         &kp UP     &kp END    &alt_tab          &kp BSPC     &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT   &kp LEFT         &kp DOWN   &kp RIGHT  &reverse_alt_tab  &kp ENTER    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL   &kp PRINTSCREEN  &kp SPACE  &kp SPACE  &trans            &kp DEL      &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans     &trans            &trans       &trans  &trans  &trans
             >;
         };
 
